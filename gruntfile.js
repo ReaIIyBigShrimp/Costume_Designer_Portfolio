@@ -1,7 +1,6 @@
 // The "wrapper" function
 module.exports = function(grunt) {
     
-
     // Load first, before init config
     // Loads all grunt plugins
     require('load-grunt-config')(grunt);
@@ -40,7 +39,7 @@ module.exports = function(grunt) {
         watch: {
             sass: {
                 files: [
-                    'assets/sass/*.scss'
+                    'assets/sass/**/*.scss'
                 ],
                 tasks: [
                     'sass'
