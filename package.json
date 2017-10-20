@@ -6,12 +6,11 @@
   "author": "Darryl Dolan-Rathmell",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
-    "jquery-ui-dist": "^1.12.1"
+    "jquery-ui-dist": "^1.12.1",
+    "purecss": "^1.0.0"
   },
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
     "bourbon": "^4.3.4",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
