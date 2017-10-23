@@ -68,5 +68,17 @@
     position:fixed;
   }
 
+  .navbar {
+    background-color: #333333;
+    position: relative;
+    z-index: 9001;
+    width: 100%;
+    height: 50px;
+  }
+
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+  }
 
   

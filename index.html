@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A portfolio of the created works by Frances Dolan.">
   <!-- PureCSS -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -15,54 +17,79 @@
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
-  <!-- Animating Menu-->
-  <!-- <div class="main-nav">
-    <div class="test1 main-nav-item"><i class="fa fa-info fa-2x"></i><a class="nav-link">Facilities</a></div>
-    <div class="test2 main-nav-item"><i class="fa fa fa-users fa-2x"></i><a class="nav-link">Social</a></div>
-    <div class="test3 main-nav-item"><i class="fa fa-trophy fa-2x"></i><a class="nav-link">Competitive</a></div>
-    <div class="test4 main-nav-item"><i class="fa fa-level-up fa-2x"></i><a class="nav-link">Coaching</a></div>
-    <div class="test5 main-nav-item"><i class="fa fa-map-marker fa-2x"></i><a class="nav-link">Location</a></div>
-    <div class="mask2"><i class="fa fa-bars fa-3x"></i></div>
-  </div> -->
-
+  
   <header>
     <!-- Custom nav -->
-    <div class="pure-menu pure-menu-horizontal">
-        <a href="#" class="pure-menu-heading pure-menu-link">FD</a>
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Created Works</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-        </ul>
-    </div>
-    <!-- <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav> -->
+    <nav class="navbar">
+      <div class="pure-menu pure-menu-horizontal">
+          <a href="#" class="pure-menu-heading pure-menu-link">FD</a>
+          <ul class="pure-menu-list">
+              <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+              <li class="pure-menu-item"><a href="#" class="pure-menu-link">Created Works</a></li>
+              <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
+    
   </header>
-  <!-- Slider -->
-  <ul class="rslides">
-      <li><img src="./assets/images/cake_01.jpg" alt="khajit"></li>
-      <li><img src="./assets/images/cake_02.jpg" alt="khajit"></li>
-      <li><img src="./assets/images/cake_03.jpg" alt="khajit"></li>
+  <div>
+    <!-- Slider -->
+    <ul class="rslides">
+        <li><img src="./assets/images/cake_01.jpg" alt="Cake."></li>
+        <li><img src="./assets/images/cake_02.jpg" alt="Another cake."></li>
+        <li><img src="./assets/images/cake_03.jpg" alt="A third cake."></li>
     </ul>
+  </div>
   <!-- Anchor point here -->
-  <!-- Portfolio Section -->
+  <!-- Portfolio -->
+  <!-- Photographs -->
+  <div class="pure-g">
+      <div class="photo-box pure-u-sm-1 pure-u-md-1-2">
+        <img src="./assets/images/cushions.jpg" alt="Handmade cushions.">
+        <aside class="photo-box-caption">
+            <span>
+                Handmade cushions.
+            </span>
+        </aside>
+      </div>
+      <div class="photo-box pure-u-sm-1 pure-u-md-1-2">
+        <img src="./assets/images/book.jpg" alt="">
+        <aside>
+          <span>
+            Original diary, with bookmark.
+          </span>
+        </aside>
+      </div>
+      <!-- Heading here - Something summarising the images shown -->
+      <div class="text-box pure-u-sm-1 pure-u-md-1-3">
+        <h2>[Insert stuff here]</h2>
+      </div>
+      <div class="photo-box pure-u-sm-1 pure-u-md-2-3">
+        <img src="./assets/images/many-things.jpg" alt="">
+        <aside>
+          <span>
+            Collection of items.
+          </span>
+        </aside>
+      </div>
+  </div>
   <footer>
-    <!-- <div class="row">
-        <div class="col-sm-12">
-          <p>Website created by Darryl Dolan-Rathmell</p>
-        </div>
-    </div> -->
+    <!-- Social Media links here -->
+    <!-- Animating Menu-->
+    <div class="main-nav">
+      <div class="test1 main-nav-item"><i class="fa fa-info fa-2x"></i><a class="nav-link">Facilities</a></div>
+      <div class="test2 main-nav-item"><i class="fa fa fa-users fa-2x"></i><a class="nav-link">Social</a></div>
+      <div class="test3 main-nav-item"><i class="fa fa-trophy fa-2x"></i><a class="nav-link">Competitive</a></div>
+      <div class="test4 main-nav-item"><i class="fa fa-level-up fa-2x"></i><a class="nav-link">Coaching</a></div>
+      <div class="test5 main-nav-item"><i class="fa fa-map-marker fa-2x"></i><a class="nav-link">Location</a></div>
+      <div class="mask2"><i class="fa fa-bars fa-3x"></i></div>
+    </div>
+    <div>
+      <p>FD - Currently in development</p>
+    </div>
   </footer>
   <!-- <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
   <script src="./js/responsiveslides.min.js"></script>
   <script src="./js/script.js"></script>
-  <script>
-    
-  </script>
 </body>
 </html>
