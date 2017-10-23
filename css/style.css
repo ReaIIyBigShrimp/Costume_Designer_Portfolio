@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 80%;
   text-align: right;
   text-shadow: 1.5px 1.5px 12px #000000;
-  background: rgba(204, 204, 204, 0.2); }
+  background: rgba(50, 50, 50, 0.25); }
 
 .photo-box aside span {
   color: #dddddd; }
