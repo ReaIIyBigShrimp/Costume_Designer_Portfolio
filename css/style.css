@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+@import url("https://fonts.googleapis.com/css?family=Bonbon");
+@import url("https://fonts.googleapis.com/css?family=Dr+Sugiyama");
+@import url("https://fonts.googleapis.com/css?family=Italianno");
 html,
 body,
 ul,
@@ -81,7 +85,8 @@ ol {
 
 .fixed-navbar {
   position: fixed;
-  top: 0; }
+  top: 0;
+  left: 0; }
 
 body {
   color: #666; }
@@ -192,5 +197,14 @@ body {
   border-width: 1px;
   border-color: #000000;
   box-sizing: content-box; }
+
+.fd-dark {
+  color: #111111; }
+
+.fd-light {
+  color: #eeeeee; }
+
+.fd-font {
+  font-family: 'Italianno', cursive; }
 
 /*# sourceMappingURL=style.css.map */

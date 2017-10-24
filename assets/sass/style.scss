@@ -1,23 +1,43 @@
 // Bourbon
 @import "bourbon/bourbon";
-// Imported CSS
+// Reset
 @import "_reset";
+// Partials
 @import "partials/_header";
 @import "partials/_footer";
 @import "partials/_contact";
 @import "partials/_gallery";
 // Will all compile into single stylesheet, using Sass.
 
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Bonbon');
+@import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama');
+@import url('https://fonts.googleapis.com/css?family=Italianno');
+
 $background-color: #333333;
 
 body {
       background: $background-color;
 }
-// $primary-color: #123456;
+// If used on photo-box divs, the images will glitch their position
+// Currently not in use.
 .bottom-border {
       border-style: solid;
       border-width: 1px;
       border-color: #000000;
       box-sizing: content-box;
+}
+
+.fd-dark {
+      color: #111111;
+}
+.fd-light {
+      color: #eeeeee;
+}
+
+
+.fd-font {
+      font-family: 'Italianno', cursive;
 }
 
