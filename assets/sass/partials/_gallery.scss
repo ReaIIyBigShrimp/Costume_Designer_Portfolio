@@ -24,18 +24,18 @@ h1,h2,h3,h4,h5,h6 {
     position: relative;
     
     text-align: center;
-    
 }
 
 .photo-box-thin {
     height: 120px;
 }
 
-
 .photo-box img {
     max-width: 100%;
     height: auto;
-    min-height: 250px;
+    min-height: 150px;
+    // Removes 2-3 pixels of space below caption
+    vertical-align: bottom;
 }
 
 .photo-box aside {
@@ -63,22 +63,25 @@ h1,h2,h3,h4,h5,h6 {
 
 .text-box {
     background: rgb(49, 49, 49); /* bluish grey */
-    color: rgb(255, 190, 94); /* steel blue */
+    // color: rgb(255, 190, 94); /* Amber */
+    color: #d0294d;
 }
 
 .text-box-head {
     color: #fff;
-    padding-bottom: 0.2em;
+    //padding-bottom: 0.2em;
     font-weight: 400;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-size: 24px;
+    font-size: 3em;
+    line-height: 1.0em;
+    margin: 0.5em 0; 
 }
 
 .text-box-subhead {
     font-weight: normal;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 }
 
 .form-box {

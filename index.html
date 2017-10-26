@@ -6,12 +6,14 @@
   <meta name="description" content="A portfolio of the created works by Frances Dolan.">
   <!-- PureCSS -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Responsive Slides -->
   <link rel="stylesheet" href="./css/responsiveslides.css">
+  <!-- Custom CSS-->
   <link rel="stylesheet" href="./css/style.css">
   <!-- jQuery -->
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
@@ -21,7 +23,7 @@
     <!-- Custom nav -->
     <nav class="navbar">
       <div class="pure-menu pure-menu-horizontal">
-          <a href="#" class="pure-menu-heading pure-menu-link">FD</a>
+          <a href="#" class="pure-menu-heading pure-menu-link fd-font">FD</a>
           <ul class="pure-menu-list">
               <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
               <li class="pure-menu-item"><a href="#" class="pure-menu-link">Created Works</a></li>
@@ -30,19 +32,20 @@
       </div>
     </nav>
   </header>
+  <div class="pure"></div>
   <div>
     <!-- Slider -->
     <ul class="rslides">
-        <li><img src="./assets/images/cake_01.jpg" alt="Cake."></li>
-        <li><img src="./assets/images/cake_02.jpg" alt="Another cake."></li>
-        <li><img src="./assets/images/cake_03.jpg" alt="A third cake."></li>
+        <li><img class="pure-img" src="./assets/images/cake_01.jpg" alt="Cake."></li>
+        <li><img class="pure-img" src="./assets/images/cake_02.jpg" alt="Another cake."></li>
+        <li><img class="pure-img" src="./assets/images/cake_03.jpg" alt="A third cake."></li>
     </ul>
   </div>
   <!-- Anchor point here -->
   <!-- Portfolio -->
   <!-- Photographs -->
   <div class="pure-g">
-      <div class="photo-box pure-u-sm-1 pure-u-md-1-2">
+      <div class="photo-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-3">
         <img src="./assets/images/cushions.jpg" alt="Handmade cushions.">
         <aside class="photo-box-caption">
             <span>
@@ -50,7 +53,14 @@
             </span>
         </aside>
       </div>
-      <div class="photo-box pure-u-sm-1 pure-u-md-1-2">
+      <!-- Heading here - Something summarising the images shown -->
+      <div class="text-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-2-3">
+        <div class="l-box">
+          <h2 class="fd-font fd-light text-box-head">Original Designs. Handmade.</h2>
+          <p class="text-box-subhead">Here is a collection of Frances' previous works.</p>
+        </div>
+      </div>
+      <div class="photo-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-3">
         <img src="./assets/images/book.jpg" alt="">
         <aside class="caption">
           <span>
@@ -58,11 +68,8 @@
           </span>
         </aside>
       </div>
-      <!-- Heading here - Something summarising the images shown -->
-      <div class="text-box pure-u-sm-1 pure-u-md-1-3">
-        <h2 class="fd-font fd-light">[Insert stuff here]</h2>
-      </div>
-      <div class="photo-box pure-u-sm-1 pure-u-md-2-3">
+      
+      <div class="photo-box pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-3">
         <img src="./assets/images/many-things.jpg" alt="A collection of Frances' created works.">
         <aside>
           <span>
@@ -71,6 +78,7 @@
         </aside>
       </div>
   </div>
+  
   <footer>
     <!-- Social Media links here -->
     <!-- Animating Menu-->

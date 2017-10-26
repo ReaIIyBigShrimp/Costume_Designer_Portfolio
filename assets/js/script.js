@@ -13,7 +13,7 @@ $(document).ready(function() {
   if (!active1) {
     $(this).find('.­­test1').css({'transform': 'translate(100px,0px)'});
     // Make link text appear
-    $(this).find('.nav-link').css({'opacity': '0.5'});
+    $(this).find('.nav-link').css({'opacity': '1'});
   } else {
     $(this).find('.test1').css({'transform': 'none'});
     $(this).find('.nav-link').css({'opacity': '0'});

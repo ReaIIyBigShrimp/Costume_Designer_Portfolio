@@ -66,7 +66,7 @@ ol {
   left: 20px;
   width: 100px;
   height: 100px;
-  background: darkSlateGray;
+  background: #770a1d;
   border-radius: 50%;
   position: absolute;
   z-index: 21;
@@ -115,7 +115,8 @@ h1, h2, h3, h4, h5, h6 {
 .photo-box img {
   max-width: 100%;
   height: auto;
-  min-height: 250px; }
+  min-height: 150px;
+  vertical-align: bottom; }
 
 .photo-box aside {
   position: absolute;
@@ -140,21 +141,19 @@ h1, h2, h3, h4, h5, h6 {
 .text-box {
   background: #313131;
   /* bluish grey */
-  color: #ffbe5e;
-  /* steel blue */ }
+  color: #d0294d; }
 
 .text-box-head {
   color: #fff;
-  padding-bottom: 0.2em;
   font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 24px; }
+  font-size: 3em;
+  line-height: 1.0em;
+  margin: 0.5em 0; }
 
 .text-box-subhead {
   font-weight: normal;
-  letter-spacing: 0.1em;
-  text-transform: uppercase; }
+  letter-spacing: 0.1em; }
 
 .form-box {
   text-align: center;

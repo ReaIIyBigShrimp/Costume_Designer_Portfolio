@@ -1,15 +1,15 @@
-// Bourbon
+// Bourbon -----
 @import "bourbon/bourbon";
-// Reset
+// Reset -----
 @import "_reset";
-// Partials
+// Partials -----
 @import "partials/_header";
 @import "partials/_footer";
 @import "partials/_contact";
 @import "partials/_gallery";
 // Will all compile into single stylesheet, using Sass.
 
-// Fonts
+// Fonts -----
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 @import url('https://fonts.googleapis.com/css?family=Bonbon');
 @import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama');
@@ -35,8 +35,6 @@ body {
 .fd-light {
       color: #eeeeee;
 }
-
-
 .fd-font {
       font-family: 'Italianno', cursive;
 }
