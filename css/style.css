@@ -13,7 +13,7 @@ ol {
 .main-nav {
   top: 20px;
   left: 20px;
-  position: fixed;
+  position: relative;
   display: block;
   width: 100px;
   height: 100px;
@@ -68,7 +68,7 @@ ol {
   height: 100px;
   background: #770a1d;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   z-index: 21;
   color: white;
   text-align: center;
