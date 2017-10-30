@@ -1,3 +1,6 @@
+// Import variables
+@import "_variables";
+
 /* Navigation */
 .main-nav {
     top:20px;
@@ -53,8 +56,8 @@
     transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;  
   }
   .mask2 {
-    top:20px;
-    left:20px;
+    /* top: 20px;
+    left:20px; */
     width:100px;
     height:100px;
     background: #770a1d;
@@ -65,15 +68,16 @@
     text-align:center;
     line-height:120px;
     cursor:pointer;
-    position:fixed;
+    position: relative;;
   }
 
   .navbar {
-    background-color: #333333;
+    background-color: $dark;
     position: relative;
     z-index: 9001;
     width: 100%;
     height: 50px;
+    border-bottom: 1px solid $border-colour;
   }
   // Upon scrolling, use this class for the main navbar.
   .fixed-navbar {

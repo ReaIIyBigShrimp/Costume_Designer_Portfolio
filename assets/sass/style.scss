@@ -3,6 +3,7 @@
 // Reset -----
 @import "_reset";
 // Partials -----
+@import "partials/_variables";
 @import "partials/_header";
 @import "partials/_footer";
 @import "partials/_contact";
@@ -15,21 +16,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama');
 @import url('https://fonts.googleapis.com/css?family=Italianno');
 
-
-
-$background-color: #333333;
-
+// Use variables for the colour scheme
 body {
-      background: $background-color;
-}
-// If used on photo-box divs, the images will glitch their position
-// Currently not in use.
-// Remove this.
-.bottom-border {
-      border-style: solid;
-      border-width: 1px;
-      border-color: #000000;
-      box-sizing: content-box;
+      background: $dark;
 }
 // Custom styles
 .fd-dark {
@@ -41,5 +30,9 @@ body {
 .fd-font {
       font-family: 'Italianno', cursive;
 }
-
+// Outline individual grid elements
+// First level only
+.pure-g > div{
+      outline: 1px solid $border-colour;
+}
 
