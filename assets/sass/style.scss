@@ -11,21 +11,17 @@
 // Will all compile into single stylesheet, using Sass.
 
 // Fonts -----
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
-@import url('https://fonts.googleapis.com/css?family=Bonbon');
-@import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama');
-@import url('https://fonts.googleapis.com/css?family=Italianno');
+@import "partials/_fonts";
 
-// Use variables for the colour scheme
 body {
       background: $dark;
 }
 // Custom styles
 .fd-dark {
-      color: #111111;
+      color: $dark;
 }
 .fd-light {
-      color: #eeeeee;
+      color: $light;
 }
 .fd-font {
       font-family: 'Italianno', cursive;
@@ -34,5 +30,24 @@ body {
 // First level only
 .pure-g > div{
       outline: 1px solid $border-colour;
+}
+// Slider image captions
+.slider-caption {
+      position: absolute;
+      display: block;
+      margin: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px;
+      // font-size: 80%;
+      text-align: center;
+      background: #000;
+      // background: rgba(0,0,0, .8);
+      background: rgba(50,50,50, 0.25);      
+      color: #fff;
+}
+.bottom-border {
+      border-bottom: 1px solid $border-colour;
 }
 
