@@ -6,23 +6,20 @@ $(document).ready(function() {
   var active5 = false;
 
   $('.main-nav').on('mousedown touchstart', function() {
-  // --+ 
-  // $().toggleClass();
   // Check current menu state, then changes CSS.
   console.log('Changing menu state...');
   if (!active1) {
-    $(this).find('.­­test1').css({'transform': 'translate(100px,0px)'});
-    // Make link text appear
-    $(this).find('.nav-link').css({'opacity': '1'});
+    $(this).find('.­­test1').css({'transform': 'translate(150px,0px)'});
   } else {
     $(this).find('.test1').css({'transform': 'none'});
-    $(this).find('.nav-link').css({'opacity': '0'});
   }
   // Education
   if (!active2) {
     $(this).find('.test2').css({'transform': 'translate(200px,0px)'});
+    $(this).find('.nav-link').css({'opacity': '1'});
     } else {
     $(this).find('.test2').css({'transform': 'none'});
+    $(this).find('.nav-link').css({'opacity': '0'});
   };
   // Code
   if (!active3) {
@@ -75,5 +72,5 @@ $(document).ready(function() {
     } else {
         $('.menu').removeClass('fixed-navbar');
     }
-});
+  });
 });

@@ -17,6 +17,7 @@ body {
       background: $dark;
 }
 // Custom styles
+// Use variables here
 .fd-dark {
       color: $dark;
 }
@@ -49,5 +50,8 @@ body {
 }
 .bottom-border {
       border-bottom: 1px solid $border-colour;
+}
+.heading {
+      text-align: center;
 }
 

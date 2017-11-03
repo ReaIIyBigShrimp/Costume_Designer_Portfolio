@@ -46,8 +46,7 @@ ol {
   z-index: 19; }
 
 .test1 {
-  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  position: absolute; }
+  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
 .test2 {
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.1s; }
@@ -73,8 +72,7 @@ ol {
   color: white;
   text-align: center;
   line-height: 120px;
-  cursor: pointer;
-  position: relative; }
+  cursor: pointer; }
 
 .navbar {
   background-color: #333333;
@@ -216,5 +214,8 @@ body {
 
 .bottom-border {
   border-bottom: 1px solid #dfdfdf; }
+
+.heading {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
