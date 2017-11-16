@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Bonbon");
 @import url("https://fonts.googleapis.com/css?family=Dr+Sugiyama");
 @import url("https://fonts.googleapis.com/css?family=Italianno");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html,
 body,
 ul,
@@ -186,6 +187,9 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: #333333; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
 
 .fd-dark {
   color: #333333; }
