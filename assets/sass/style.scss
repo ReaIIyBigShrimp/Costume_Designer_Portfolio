@@ -30,6 +30,12 @@ p {
 .fd-font {
       font-family: 'Italianno', cursive;
 }
+.pure-g {
+      letter-spacing: 0em;
+}
+/* .pure-g div {
+      padding: 4px;
+} */
 // Outline individual grid elements
 // First level only
 .pure-g > div{
@@ -37,6 +43,7 @@ p {
 }
 // Slider image captions
 .slider-caption {
+      // margin-left: 0;
       position: absolute;
       display: block;
       margin: 0;

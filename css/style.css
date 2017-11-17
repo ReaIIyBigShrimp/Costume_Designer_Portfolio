@@ -200,6 +200,12 @@ p {
 .fd-font {
   font-family: 'Italianno', cursive; }
 
+.pure-g {
+  letter-spacing: 0em; }
+
+/* .pure-g div {
+      padding: 4px;
+} */
 .pure-g > div {
   outline: 1px solid #dfdfdf; }
 
