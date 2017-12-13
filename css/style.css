@@ -217,6 +217,7 @@ p {
   left: 0;
   right: 0;
   padding: 15px;
+  font-size: 80%;
   text-align: center;
   background: #000;
   background: rgba(50, 50, 50, 0.25);
