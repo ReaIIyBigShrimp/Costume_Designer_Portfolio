@@ -4,25 +4,28 @@ $(document).ready(function() {
   var active2 = false;
   var active3 = false;
   
-  $('.main-nav').on('mousedown touchstart', function() {
-  console.log('Attempting to transform Facebook icon...');
+  $('.main-nav').on('click', function() {
+  console.log('[Facebook icon.]');
   if (!active1) {
-    $(this).find('.­­facebook1').css({'transform': 'translate(150px,0px)'});
+    console.log('Should now animate Facebook icon...');
+    $(this).find('.facebook').css({'transform': 'translate(100px,0px)'});
+    
   } else {
     $(this).find('.facebook').css({'transform': 'none'});
   }
-  
+  console.log('[Twitter icon]')
   if (!active2) {
     $(this).find('.twitter').css({'transform': 'translate(200px,0px)'});
-    $(this).find('.nav-link').css({'opacity': '1'});
+    // $(this).find('.nav-link').css({'opacity': '1'});
     } else {
     $(this).find('.twitter').css({'transform': 'none'});
-    $(this).find('.nav-link').css({'opacity': '0'});
+    // $(this).find('.nav-link').css({'opacity': '1'});
   };
+  console.log('[Email icon]')
   if (!active3) {
-    $(this).find('.test3').css({'transform': 'translate(300px,0px)'});
+    $(this).find('.email').css({'transform': 'translate(300px,0px)'});
   } else {
-    $(this).find('.test3').css({'transform': 'none'});
+    $(this).find('.email').css({'transform': 'none'});
   };
 
   console.log('Toggling menu state...');
@@ -40,7 +43,7 @@ $(document).ready(function() {
       pager: false,           // Boolean: Show pager, true or false
       nav: false,             // Boolean: Show navigation, true or false
       random: false,          // Boolean: Randomize the order of the slides, true or false
-      pause: true,           // Boolean: Pause on hover, true or false
+      pause: true,            // Boolean: Pause on hover, true or false
       pauseControls: true,    // Boolean: Pause when hovering controls, true or false
       prevText: "Previous",   // String: Text for the "previous" button
       nextText: "Next",       // String: Text for the "next" button
@@ -53,9 +56,10 @@ $(document).ready(function() {
     });
   });
   // NB Fixed Navigation Bar
-  // Past 50 pixels, the navigation bar will stick to the top.
+  // Past 0 pixels, the navigation bar will stick to the top.
+  // There the navbar will stick immediately to the top of the page.
   $(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 50) {
+    if ($(window).scrollTop() >= 0) {
         $('#mainNav').addClass('fixed-navbar');
     } else {
         $('#mainNav').removeClass('fixed-navbar');

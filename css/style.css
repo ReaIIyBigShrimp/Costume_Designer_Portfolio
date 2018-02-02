@@ -46,20 +46,25 @@ ol {
   left: 25%;
   z-index: 19; }
 
-.test1 {
+.facebook {
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
-.test2 {
+.twitter {
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.1s; }
 
-.test3 {
+.email {
   transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s; }
 
-.test4 {
-  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.3s; }
-
-.test5 {
-  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s; }
+/* 
+  .test4 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .3s;  
+  }
+  .test5 {
+    transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;  
+  }
+  */
+.nav-link {
+  position: absolute; }
 
 .mask2 {
   /* top: 20px;
