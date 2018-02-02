@@ -9,9 +9,12 @@ $(document).ready(function() {
   if (!active1) {
     console.log('Should now animate Facebook icon...');
     $(this).find('.facebook').css({'transform': 'translate(100px,0px)'});
-    
+    // Anchor tag opacity fade-in
+    $(this).find('.nav-link').css({'opacity': '1'});
   } else {
     $(this).find('.facebook').css({'transform': 'none'});
+    // Anchor tag opacity fade-in
+    $(this).find('.nav-link').css({'opacity': '0'});
   }
   console.log('[Twitter icon]')
   if (!active2) {

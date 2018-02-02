@@ -21,7 +21,7 @@
   .main-nav a {
     position: relative;
     top: -30px;
-    opacity: 0.0;
+    // opacity: 0.0;
     transition-duration: 0.5s;
     transition: opacity 2s cubic-bezier(0.680, -0.550, 0.265, 1.550);
   }
